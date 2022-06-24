@@ -1,0 +1,35 @@
+
+.container{
+    width: 800px;
+    height: 600px;
+    background-color: moccasin;
+   
+    color: whitesmoke;
+}
+
+.col, .col-2, .col-3{
+flex: 1;
+margin:10px;
+background-color: blue;
+padding:10px;
+
+}
+.row{
+    
+    background-color: aqua ;
+    display: flex;
+    
+
+}
+.col-2{
+    flex: 2;
+    
+   
+    
+    }
+.col-3{
+        flex: 3;
+    
+       
+        
+        }
